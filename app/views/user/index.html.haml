@@ -1,0 +1,19 @@
+%h1 Usuarios
+%p Listado de Usuarios
+
+- if flash[:notice].present?
+  .notice= flash[:notice]
+
+- if @users.any?
+  %table{border: "1"}
+    %tr
+      %th Id
+      %th Nombre
+      %th Email
+    = render @users
+- else
+  %em No hay ningun usuario agregado
+
+%br
+
+= link_to "Nuevo Usuario", new_user_path

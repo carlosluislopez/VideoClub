@@ -1,0 +1,17 @@
+%h1 Generos
+%p Listado de Generos
+
+- if flash[:notice].present?
+  .notice= flash[:notice]
+
+- if @genres.any?
+  %table{border: "1"}
+    %tr
+      %th Titulo
+    = render @genres
+- else
+  %em No hay ningun genero agregado
+
+%br
+
+= link_to "Nuevo Genero", new_genre_path

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VideoClub</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="navigation">
+  <table>
+    <tr>
+      <td><%= link_to "HOME", root_path %></td>
+      <td><%= link_to "USERS", users_path %></td>
+      <td><%= link_to "MOVIES", movies_path %></td>
+      <td><%= link_to "GENEROS", geners_path %></td>
+      
+    </tr>
+  </table>
+</div>
+
+<div class="content">
+<%= yield %>
+
+</body>
+</html>

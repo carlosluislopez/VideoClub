@@ -1,0 +1,19 @@
+= render partial: "shared/errors", locals: {obj: @user}
+
+%h1 Agregar nueva pelicula
+
+%p Ingresa los datos de la nueva pelicula
+
+= form_for([@user, @user.stream.build]) do |f|
+
+  .field
+    = f.label :movie_id, "Album"
+    = f.collection_select :movie_id, Movie.order(:title), :id, :title
+
+  .field
+    = f.label :amount, "Monto"
+    = f.text_field :amount
+
+
+  .field
+    = f.submit

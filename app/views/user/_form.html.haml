@@ -1,0 +1,21 @@
+
+= form_for @user do |f|
+
+  .field
+    = f.label :name, "Nombre"
+    = f.text_field :name
+
+  .field
+    = f.label :gender, "Genero"
+    = f.select :gender, User.gender_options
+
+  .field
+    = f.label :email, "Email"
+    = f.text_field :email
+
+  .field
+    = f.label :year_birth, "Año nacimiento"
+    = f.text_field :year_birth
+
+  .field
+    = f.submit

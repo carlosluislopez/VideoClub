@@ -1,0 +1,13 @@
+= render partial: "shared/errors", locals: {obj: @stream}
+
+%p Ingresa los datos de la nueva stream
+
+= form_for [@user, @stream] do |f|
+
+
+  .field
+    = f.label :amount, "Monto"
+    = f.text_field :amount
+
+  .field
+    = f.submit
