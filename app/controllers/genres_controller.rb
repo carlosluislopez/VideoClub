@@ -1,4 +1,4 @@
-class GenreController < ApplicationController
+class GenresController < ApplicationController
 
 	def index
     @genres = Genre.order(title: :asc)
@@ -12,7 +12,7 @@ class GenreController < ApplicationController
     @genre = Genre.new(genre_params)
 
     if @genre.save
-      redirect_to @genres_path,
+      redirect_to genres_path,
       	flash: {notice: "Genero creado exitosamente"}
     else
       render :new
@@ -23,7 +23,7 @@ class GenreController < ApplicationController
     @genre = Genre.find(params[:id])
 
     if @user.update(genre_params)
-      redirect_to @genres_path,
+      redirect_to genres_path,
       	flash: {notice: "Genero editado exitosamente"}
     else
       render :edit

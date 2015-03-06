@@ -1,4 +1,4 @@
-class StreamController < ApplicationController
+class StreamsController < ApplicationController
 	def new
     @user = User.find(params[:user_id])
     @stream = Stream.new
@@ -7,9 +7,9 @@ class StreamController < ApplicationController
   def create
     @user = User.find(params[:user_id])
 
-    @stream = @user.stream.build(stream_params)
+    @stream = @user.streams.build(stream_params)
 
-    if @song.save
+    if @stream.save
       redirect_to @user
     else
       render :new

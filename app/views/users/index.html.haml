@@ -1,8 +1,11 @@
 %h1 Usuarios
 %p Listado de Usuarios
 
-- if flash[:notice].present?
-  .notice= flash[:notice]
+%strong
+  - if flash[:notice].present?
+    .notice= flash[:notice]
+
+%br
 
 - if @users.any?
   %table{border: "1"}

@@ -1,18 +1,15 @@
-%h1= @movie.name
-%p
-  %strong Titulo
-  = @movie.title
+%h1= @movie.title
 %p
   %strong Descripcion
   = @movie.description
 %p
   %strong Precio
-  = @movie.price
+  = @movie.decorate_price
 %p
   %strong Disponible
-  = @movie.avaible
+  = @movie.available
 %p
   %strong Fecha Salida
-  = @movie.released_at
+  = @movie.decorate_released_at
 
 = link_to "Editar Pelicula", edit_movie_path

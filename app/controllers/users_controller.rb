@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
 
 	def index
     @users = User.order(name: :asc)
@@ -22,13 +22,17 @@ class UserController < ApplicationController
     end
   end
 
+  def edit
+     @user = User.find(params[:id])
+  end
+
   def update
     @user = User.find(params[:id])
-
+    
     if @user.update(user_params)
-      redirect_to @user
+      redirect_to users_path,flash: {notice: "Usuario editado exitosamente"}
     else
-      render :streams_batch
+      render :edit
     end
   end
 

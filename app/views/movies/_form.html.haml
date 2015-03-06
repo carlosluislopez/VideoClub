@@ -11,15 +11,11 @@
 
   .field
     = f.label :price, "Precio"
-    = f.text_field :price
-
-  .field
-    = f.label :avaible, "Disponible"
-    = f.text_field :avaible
+    = f.number_field :price 
 
   .field
     = f.label :released_at, "Fecha Salida"
-    = f.text_field :released_at
+    = f.date_field :released_at
 
   .field
     = f.submit

@@ -6,7 +6,7 @@ VideoClub::Application.routes.draw do
   resources :genres, only: [:index, :new, :create, :edit, :update]
   resources :movies, except: [:destroy]
   resources :users, except: [:destroy] do
-    resources :streams, only: [:new, :create]
+    resources :streams, only: [:new, :create, :destroy]
     get "streams_batch", on: :member
   end
 

@@ -1,4 +1,4 @@
-class MovieController < ApplicationController
+class MoviesController < ApplicationController
 	def index
     @movies = Movie.order(released_at: :desc)
   end
@@ -15,18 +15,22 @@ class MovieController < ApplicationController
     @movie = Movie.new(movie_params)
 
     if @movie.save
-      redirect_to @genres_path,
+      redirect_to movies_path,
       	flash: {notice: "Pelicula creada exitosamente"}
     else
       render :new
     end
   end
 
+  def edit
+   @movie = Movie.find(params[:id])
+  end
+
   def update
     @movie = Movie.find(params[:id])
 
     if @movie.update(movie_params)
-      redirect_to @genres_path,
+      redirect_to movies_path,
       	flash: {notice: "Pelicula editada exitosamente"}
     else
       render :edit
@@ -37,5 +41,4 @@ class MovieController < ApplicationController
   def movie_params
     params.require(:movie).permit!
   end
-end
 end
