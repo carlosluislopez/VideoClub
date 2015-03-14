@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  skip_before_filter :authenticate 
 
 	def index
     @users = User.order(name: :asc)
@@ -16,7 +17,8 @@ class UsersController < ApplicationController
     @user= User.new(user_params)
 
     if @user.save
-      redirect_to @user
+      UserMailer.welcome_email(@user).deliver
+      login(@user)
     else
       render :new
     end

@@ -11,11 +11,16 @@
 <div class="navigation">
   <table>
     <tr>
-      <td><%= link_to "HOME", root_path %></td>
-      <td><%= link_to "USERS", users_path %></td>
-      <td><%= link_to "MOVIES", movies_path %></td>
-      <td><%= link_to "GENEROS", genres_path %></td>
-      
+      <td><%= link_to "HOME", root_path %></td>      
+      <td><%= link_to "SIGN UP", new_user_path %></td>
+      <% if current_user.present? %>      
+        <td><%= link_to "USERS", users_path %></td>
+        <td><%= link_to "MOVIES", movies_path %></td>
+        <td><%= link_to "GENEROS", genres_path %></td>
+        <td><%= link_to "LOGOUT", logout_path %></td>
+      <% else %>        
+        <td><%= link_to "LOGIN", login_path %></td>       
+      <%end%>      
     </tr>
   </table>
 </div>
