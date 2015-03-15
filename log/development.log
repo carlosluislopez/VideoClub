@@ -1,0 +1,2870 @@
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:32:59 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (8.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (388.0ms)
+Completed 200 OK in 2176ms (Views: 2064.1ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:33:05 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:33:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:06 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:07 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:07 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:07 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:08 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:33:09 +0000
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:09 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (244.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (568.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:33:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (132.0ms)
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:33:11 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:33:30 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (36.0ms)
+  Rendered users/_form.html.haml (204.0ms)
+  Rendered users/new.html.haml within layouts/application (572.0ms)
+Completed 200 OK in 1052ms (Views: 1052.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:31 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/users/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (104.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:33:34 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 492ms (Views: 492.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:33:35 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 536ms (Views: 532.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (136.0ms)
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (40.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (156.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:33:39 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 484ms (Views: 463.8ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:33:40 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (143.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:34:28 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 492ms (Views: 472.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:34:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:29 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:34:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:30 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:30 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:31 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:31 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:31 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:34:32 +0000
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:34:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (148.0ms)
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:34:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:34:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (128.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:35:27 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 484ms (Views: 472.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:35:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:28 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:35:29 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:30 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:30 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:31 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:31 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:35:32 +0000
+
+
+Started GET "/img/search.gif" for 10.0.2.2 at 2015-03-15 04:35:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/img/search.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:35:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (128.0ms)
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:35:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:36:10 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 492ms (Views: 480.0ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:36:11 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:36:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:12 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:12 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:12 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:13 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:13 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:36:14 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:36:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (128.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:36:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:37:49 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 492ms (Views: 480.0ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:37:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:50 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:37:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:51 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:51 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:51 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:52 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:52 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:37:53 +0000
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:37:53 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (124.0ms)
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:37:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (132.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:38:26 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 500ms (Views: 480.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:27 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:38:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:28 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:38:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:29 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:29 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:29 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:30 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:38:30 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:38:31 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:38:31 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (124.0ms)
+
+
+Started GET "/assets/app/img/list-on-orange.gif" for 10.0.2.2 at 2015-03-15 04:38:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-on-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:40:09 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 508ms (Views: 488.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:40:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:11 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:40:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:11 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:12 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:12 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:13 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:13 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:14 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:40:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:40:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:40:51 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 488ms (Views: 468.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:40:52 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:40:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:53 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:53 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:54 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:54 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:54 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:55 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:40:55 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:40:56 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:40:56 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (124.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:42:03 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 484ms (Views: 464.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:42:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:05 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:42:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:06 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:06 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:06 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:07 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:07 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:42:08 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:42:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (128.0ms)
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:42:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (128.0ms)
+
+
+Started GET "/assets/app/img/list-on-orange.gif" for 10.0.2.2 at 2015-03-15 04:42:11 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/img/list-on-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (192.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:44:21 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 916ms (Views: 900.1ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:44:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:44:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:23 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:24 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:24 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:24 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:25 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:25 +0000
+
+
+Started GET "/assets/app/images/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:44:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/images/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/assets/app/images/banner.jpg" for 10.0.2.2 at 2015-03-15 04:44:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/images/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:44:33 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 476ms (Views: 464.0ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:44:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:34 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:35 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:44:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:36 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:36 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:36 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:37 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:44:37 +0000
+
+
+Started GET "/assets/app/images/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:44:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/images/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/assets/app/images/banner.jpg" for 10.0.2.2 at 2015-03-15 04:44:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/images/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (136.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:45:00 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 916ms (Views: 904.1ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:01 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:45:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:45:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:03 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:03 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:04 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:04 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:04 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:45:05 +0000
+
+
+Started GET "/assets/app/images/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:45:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/app/images/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (144.0ms)
+
+
+Started GET "/assets/images/banner.jpg" for 10.0.2.2 at 2015-03-15 04:45:06 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (140.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:46:00 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (52.0ms)
+Completed 200 OK in 944ms (Views: 928.1ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:46:01 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:46:01 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:03 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:03 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:03 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:04 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:46:04 +0000
+
+
+Started GET "/images/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:46:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/list-off-orange.gif"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/images/banner.jpg" for 10.0.2.2 at 2015-03-15 04:46:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/images/banner.jpg"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rvm/rubies/ruby-1.9.3-p545/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-1.9.3-p545/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (156.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:47:08 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (12.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (32.0ms)
+Completed 200 OK in 920ms (Views: 904.1ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:47:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:10 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:47:11 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:12 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:12 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:12 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:13 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:47:13 +0000
+
+
+Started GET "/assets/app/img/list-off-orange.gif" for 10.0.2.2 at 2015-03-15 04:47:14 +0000
+
+
+Started GET "/assets/app/img/banner.jpg" for 10.0.2.2 at 2015-03-15 04:47:14 +0000
+
+
+Started GET "/assets/app/img/list-on-orange.gif" for 10.0.2.2 at 2015-03-15 04:47:21 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:50:18 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (12.0ms)
+  Rendered users/new.html.haml within layouts/application (312.3ms)
+Completed 200 OK in 1005ms (Views: 1001.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:50:24 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 489ms (Views: 476.5ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:50:26 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (8.0ms)
+  Rendered users/new.html.haml within layouts/application (276.3ms)
+Completed 200 OK in 745ms (Views: 744.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:50:28 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 452ms (Views: 452.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:50:30 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (8.0ms)
+  Rendered users/new.html.haml within layouts/application (276.3ms)
+Completed 200 OK in 733ms (Views: 732.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:51:21 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (4.0ms)
+  Rendered users/_form.html.haml (16.0ms)
+  Rendered users/new.html.haml within layouts/application (232.2ms)
+Completed 200 OK in 705ms (Views: 700.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:51:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:24 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:51:24 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:24 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:25 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:25 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:25 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:51:26 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:54:22 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (12.0ms)
+  Rendered users/new.html.haml within layouts/application (216.2ms)
+Completed 200 OK in 693ms (Views: 688.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:54:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:54:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:24 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:24 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:25 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:25 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:25 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:54:26 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:54:27 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 477ms (Views: 464.5ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:54:30 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (8.0ms)
+  Rendered users/new.html.haml within layouts/application (276.3ms)
+Completed 200 OK in 737ms (Views: 736.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:54:33 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (0.0ms)
+Completed 200 OK in 468ms (Views: 468.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 04:54:40 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (24.0ms)
+Completed 200 OK in 513ms (Views: 500.5ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:54:46 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (4.0ms)
+  Rendered users/new.html.haml within layouts/application (292.3ms)
+Completed 200 OK in 761ms (Views: 756.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:54:50 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 468ms (Views: 468.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 04:56:27 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 901ms (Views: 901.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:56:28 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:56:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:29 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:30 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:30 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:30 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:31 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:31 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:32 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:56:36 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (36.0ms)
+  Rendered users/new.html.haml within layouts/application (304.3ms)
+Completed 200 OK in 773ms (Views: 768.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:56:41 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (4.0ms)
+  Rendered users/new.html.haml within layouts/application (240.3ms)
+Completed 200 OK in 705ms (Views: 704.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:56:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:42 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:56:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:43 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:44 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:44 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:44 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:45 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:56:45 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 04:58:56 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (16.0ms)
+  Rendered users/new.html.haml within layouts/application (232.2ms)
+Completed 200 OK in 697ms (Views: 692.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 04:58:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:58 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 04:58:58 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:59 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:59 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 04:58:59 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 04:59:00 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 04:59:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 04:59:00 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:01:26 +0000
+Processing by HomeController#index as HTML
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 537ms (Views: 524.6ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:01:29 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 473ms (Views: 472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:02:38 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 464ms (Views: 460.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:02:38 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:02:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:40 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:40 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:40 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:41 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:41 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:02:42 +0000
+
+
+Started GET "/users/new" for 10.0.2.2 at 2015-03-15 05:03:14 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.haml (0.0ms)
+  Rendered users/_form.html.haml (24.0ms)
+  Rendered users/new.html.haml within layouts/application (300.3ms)
+Completed 200 OK in 769ms (Views: 768.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:03:16 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 468ms (Views: 464.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:03:34 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 460ms (Views: 460.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:03:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:35 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:03:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:36 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:36 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:37 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:37 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:37 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:38 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:03:48 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 549ms (Views: 544.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:03:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:50 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:50 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:03:51 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:51 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:51 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:52 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:03:52 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:05:21 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 473ms (Views: 468.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:23 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:23 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:24 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:24 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:25 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:25 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:25 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:05:40 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 473ms (Views: 472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:42 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:42 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:43 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:43 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:43 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:44 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:44 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:05:55 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 521ms (Views: 520.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:56 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:05:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:57 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:58 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:58 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:58 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:59 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:05:59 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2015-03-15 05:07:46 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 468ms (Views: 468.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:07:47 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:07:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:48 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:49 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:49 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:49 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:50 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:50 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:07:51 +0000
+
+
+Started POST "/login" for 10.0.2.2 at 2015-03-15 05:08:10 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PTUE6CVvFLyTT1yz9vD3MZBqn3obkdjZX2yh/+qujes=", "session"=>{"email"=>"cyber_heroe@unitec.edu", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (8.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'cyber_heroe@unitec.edu' LIMIT 1
+Redirected to http://localhost:3000/users/10
+Completed 302 Found in 168ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:08:11 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (8.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (44.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (8.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (184.2ms)
+  Rendered users/show.html.haml within layouts/application (1257.3ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 1806ms (Views: 1689.8ms | ActiveRecord: 108.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:08:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:13 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:08:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:14 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:15 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:15 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:15 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:16 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:08:16 +0000
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:08:26 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (8.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (8.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (72.1ms)
+  Rendered users/show.html.haml within layouts/application (260.3ms)
+  [1m[36mUser Load (8.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 781ms (Views: 712.8ms | ActiveRecord: 56.1ms)
+
+
+Started GET "/genres" for 10.0.2.2 at 2015-03-15 05:08:28 +0000
+Processing by GenresController#index as HTML
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "genres"
+  [1m[36mGenre Load (4.0ms)[0m  [1mSELECT "genres".* FROM "genres" ORDER BY "genres"."title" ASC[0m
+  Rendered genres/_genre.html.haml (0.0ms)
+  Rendered genres/index.html.haml within layouts/application (176.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+Completed 200 OK in 725ms (Views: 628.7ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/movies" for 10.0.2.2 at 2015-03-15 05:08:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mUser Load (8.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "movies"[0m
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" ORDER BY "movies"."released_at" DESC
+  Rendered movies/_movie.html.haml (64.1ms)
+  Rendered movies/index.html.haml within layouts/application (220.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (4.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 717ms (Views: 688.7ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:08:39 +0000
+Processing by HomeController#index as HTML
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  Rendered home/index.html.haml within layouts/application (20.0ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 513ms (Views: 500.5ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/movies" for 10.0.2.2 at 2015-03-15 05:08:41 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" ORDER BY "movies"."released_at" DESC[0m
+  Rendered movies/_movie.html.haml (8.0ms)
+  Rendered movies/index.html.haml within layouts/application (160.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+Completed 200 OK in 649ms (Views: 628.7ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/genres" for 10.0.2.2 at 2015-03-15 05:08:43 +0000
+Processing by GenresController#index as HTML
+  [1m[35mUser Load (4.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "genres"[0m
+  [1m[35mGenre Load (4.0ms)[0m  SELECT "genres".* FROM "genres" ORDER BY "genres"."title" ASC
+  Rendered genres/_genre.html.haml (4.0ms)
+  Rendered genres/index.html.haml within layouts/application (168.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 681ms (Views: 660.7ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:08:45 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (8.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (4.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (60.1ms)
+  Rendered users/show.html.haml within layouts/application (220.2ms)
+  [1m[36mUser Load (8.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 781ms (Views: 728.8ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:09:18 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (4.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (8.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (60.1ms)
+  Rendered users/show.html.haml within layouts/application (216.2ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 781ms (Views: 724.8ms | ActiveRecord: 48.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:09:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:20 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:09:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:20 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:21 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:21 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:21 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:22 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:22 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:09:23 +0000
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:11:45 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (8.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (8.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (72.1ms)
+  Rendered users/show.html.haml within layouts/application (204.2ms)
+  [1m[36mUser Load (8.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 737ms (Views: 680.7ms | ActiveRecord: 48.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:11:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:46 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:11:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:47 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:48 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:48 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:49 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:49 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:49 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:11:50 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:12:03 +0000
+Processing by HomeController#index as HTML
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  Rendered home/index.html.haml within layouts/application (20.0ms)
+  [1m[36mUser Load (8.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 517ms (Views: 500.5ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/users/10" for 10.0.2.2 at 2015-03-15 05:12:06 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mStream Exists (4.0ms)[0m  SELECT 1 AS one FROM "streams" WHERE "streams"."user_id" = ? LIMIT 1  [["user_id", 10]]
+  [1m[36mStream Load (4.0ms)[0m  [1mSELECT "streams".* FROM "streams" WHERE "streams"."user_id" = ?[0m  [["user_id", 10]]
+  [1m[35mMovie Load (4.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mMovie Load (4.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mMovie Load (8.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mMovie Load (8.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered users/_streams.html.haml (60.1ms)
+  Rendered users/show.html.haml within layouts/application (224.2ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 737ms (Views: 688.7ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:12:21 +0000
+Processing by HomeController#index as HTML
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  Rendered home/index.html.haml within layouts/application (32.0ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 585ms (Views: 564.6ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:13:22 +0000
+Processing by HomeController#index as HTML
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  Rendered home/index.html.haml within layouts/application (32.0ms)
+  [1m[36mUser Load (4.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 10]]
+Completed 200 OK in 549ms (Views: 524.6ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:13:23 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:13:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:24 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:25 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:25 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:26 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:26 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:13:26 +0000
+
+
+Started DELETE "/logout" for 10.0.2.2 at 2015-03-15 05:14:10 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PTUE6CVvFLyTT1yz9vD3MZBqn3obkdjZX2yh/+qujes="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2015-03-15 05:14:10 +0000
+Processing by HomeController#index as HTML
+  [1m[36m (8.0ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (8.0ms)[0m  SELECT COUNT(*) FROM "movies"
+  Rendered home/index.html.haml within layouts/application (28.0ms)
+Completed 200 OK in 477ms (Views: 460.5ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2015-03-15 05:14:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:12 +0000
+
+
+Started GET "/assets/app/style.css?body=1" for 10.0.2.2 at 2015-03-15 05:14:13 +0000
+
+
+Started GET "/assets/genre.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:13 +0000
+
+
+Started GET "/assets/home.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:13 +0000
+
+
+Started GET "/assets/movie.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:14 +0000
+
+
+Started GET "/assets/stream.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:14 +0000
+
+
+Started GET "/assets/user.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2015-03-15 05:14:15 +0000

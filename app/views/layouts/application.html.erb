@@ -7,24 +7,56 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="navigation">
-  <table>
-    <tr>
-      <td><%= link_to "HOME", root_path %></td>      
-      <% if current_user.present? %>
-        <td><%= link_to "MOVIES", movies_path %></td>
-        <td><%= link_to "GENEROS", genres_path %></td>
-        <td><%= link_to current_user.try(:email), user_path(current_user.try(:id)) %>, <%= link_to "Logout", logout_path, method: :delete, class: "logout" %></td>
-      <% else %>        
-        <td><%= link_to "SIGN UP", new_user_path %></td>
-        <td><%= link_to "LOGIN", login_path %></td>
-      <%end%>      
-    </tr>
-  </table>
+  <div id="header">
+  <h1>VideoClub</h1>
+</div>
+<div id="topnav">
+  <ul id="topnavlist">
+    <li><%= link_to "Home", root_path %></li>
+    <% if current_user.present? %>
+      <li><%= link_to "Movies", movies_path %></li>
+      <li><%= link_to "Generos", genres_path %></li>
+      <li><%= link_to current_user.try(:email), user_path(current_user.try(:id)) %>, <%= link_to "Logout", logout_path, method: :delete, class: "logout" %></li>
+    <% else %>
+      <li><%= link_to "SignUp", new_user_path %></li>
+      <li><%= link_to "Login", login_path %></li>
+    <%end%>  
+  </ul>
+</div>
+<div id="gutter"></div>
+
+<div id="col1">
+  <h2>Publicidad</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla congue, velit tristique mattis auctor, velit elit euismod diam, a interdum tortor enim eget ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla congue, velit tristique mattis auctor, velit elit euismod diam, a interdum tortor enim eget ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 </div>
 
-<div class="content"></div>
-<%= yield %>
+<div id="col2">
+  <%= yield %>
+</div>
+
+<div id="col3">
+  <h2>Publicidad</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla congue, velit tristique mattis auctor, velit elit euismod diam, a interdum tortor enim eget ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla congue, velit tristique mattis auctor, velit elit euismod diam, a interdum tortor enim eget ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  <ul>
+    <li><a href="#">CSS Drive</a></li>
+    <li><a href="#">CSS play</a></li>
+    <li><a href="#">Style Gala</a></li>
+    <li><a href="#">Listamatic</a></li>
+  </ul>
+</div>
+
+<div id="footer"> 
+    | <%= link_to "Home", root_path %>
+    <% if current_user.present? %>
+      | <%= link_to "Movies", movies_path %>
+      | <%= link_to "Generos", genres_path %>
+      | <%= link_to current_user.try(:email), user_path(current_user.try(:id)) %>, <%= link_to "Logout", logout_path, method: :delete, class: "logout" %> |
+    <% else %>
+      | <%= link_to "SignUp", new_user_path %>
+      | <%= link_to "Login", login_path %>
+    <%end%>
+  | &copy; 2015 Desarrollo Web | Design by <a href="#">Videoclub Soft</a><br/>
+</div>
 
 </body>
 </html>

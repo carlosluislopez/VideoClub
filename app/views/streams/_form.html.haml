@@ -3,10 +3,10 @@
 %p Ingresa los datos de la nueva stream
 
 = form_for [@user, @stream] do |f|
-  .field
+  .form_row
     = f.label :movie_id, "Pelicula"
     = f.collection_select :movie_id, Movie.where("available = ?",true).distinct, :id, :title,{}    
  
   %br
-  .field
+  .form_row
     = f.submit

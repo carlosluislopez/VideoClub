@@ -1,29 +1,29 @@
 
 = form_for @user do |f|
 
-  .field
+  .form_row
     = f.label :name, "Nombre"
     = f.text_field :name
 
-  .field
+  .form_row
     = f.label :gender, "Genero"
     = f.select :genre, User.gender_options
 
-  .field
+  .form_row
     = f.label :email, "Email"
     = f.text_field :email
 
-  .field
+  .form_row
     = f.label :year_birth, "Año nacimiento"
     = f.text_field :year_birth
 
-  .field
+  .form_row
     = f.label :password
     = f.password_field :password
   
-  .field
+  .form_row
     = f.label :password_confirmation
     = f.password_field :password_confirmation
 
-  .field
+  .form_row
     = f.submit

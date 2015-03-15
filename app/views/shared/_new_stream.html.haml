@@ -6,14 +6,14 @@
 
 = form_for([@user, @user.stream.build]) do |f|
 
-  .field
+  .form_row
     = f.label :movie_id, "Album"
     = f.collection_select :movie_id, Movie.order(:title), :id, :title
 
-  .field
+  .form_row
     = f.label :amount, "Monto"
     = f.text_field :amount
 
 
-  .field
+  .form_row
     = f.submit
