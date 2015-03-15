@@ -1,0 +1,14 @@
+%h1 Confirmacion de Stream
+%p 
+  Estimado
+  %strong= @user.name
+  Usted ha registrado un Stream para:
+  %strong= @stream.movie.title
+  %strong= @stream.decorate_amount
+  %strong= @stream.decorate_created_at
+%p
+  Tu usuario para poder login sera:
+  %strong= @user.email
+%p
+  Por favor entra a nuestra pagina y pon tus credenciales
+  = link_to "My VideClub WebSite", users_path

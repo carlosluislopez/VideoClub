@@ -12,4 +12,18 @@
   %strong Fecha Salida
   = @movie.decorate_released_at
 
+%p
+  Listado de Streams de la pelicula
+
+- if @movie.streams.any?
+  %table{border:"1"}
+    %tr
+      %th Usuario
+      %th Monto
+      %th Fecha Solicito
+    =render partial: "streams", collection: @movie.streams
+- else
+  %em No hay streams para esta pelicula
+
+%p= link_to "Listado Streams", new_movie_stream_path(@movie)
 = link_to "Editar Pelicula", edit_movie_path

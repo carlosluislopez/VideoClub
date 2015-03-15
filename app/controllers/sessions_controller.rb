@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
 
   def new
   	if current_user.present?
-      redirect_to users_path
+      redirect_to user_path(current_user)
     end
   end
 

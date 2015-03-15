@@ -9,6 +9,15 @@ class Stream < ActiveRecord::Base
   def set_price
   	self.amount = self.movie.price
   end
+  
+  def decorate_amount
+    "Lps. #{amount}"
+  end
 
+  def decorate_created_at
+    if self.created_at.present?
+      self.created_at.strftime("%e %b %Y")
+    end
+  end
   
 end

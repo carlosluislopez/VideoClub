@@ -1,0 +1,20 @@
+%h1 Streams
+%p Listado de Streams
+
+%strong
+  - if flash[:notice].present?
+    .notice= flash[:notice]
+
+%br
+
+- if @streams.any?
+  %table{border:"1"}
+    %tr
+      %th Usuario
+      %th Monto
+      %th Fecha Solicito
+    = render @streams
+- else
+  %em No hay streams para esta pelicula
+
+%br

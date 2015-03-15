@@ -37,6 +37,11 @@ class MoviesController < ApplicationController
     end
   end
 
+  def streams_movie
+    @movie = Movie.find(params[:id])
+  end
+
+
   private
   def movie_params
     params.require(:movie).permit!

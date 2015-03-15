@@ -5,15 +5,19 @@ VideoClub::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   resources :genres, only: [:index, :new, :create, :edit, :update]
-  resources :movies, except: [:destroy]
-  resources :users, except: [:destroy] do
+  resources :movies, except: [:destroy] do
+    resources :streams, only: [:index]
+    get "streams_movie", on: :member
+  end
+  
+  resources :users, except: [:index, :destroy] do
     resources :streams, only: [:new, :create, :destroy]
     get "streams_batch", on: :member
   end
 
   get "/login" => "sessions#new"
   post "/login" => "sessions#create"
-  delete "/login" => "sessions#destroy"
+  delete "/logout" => "sessions#destroy"
 
    root 'home#index'
 

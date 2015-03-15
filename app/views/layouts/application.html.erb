@@ -7,25 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <div class="navigation">
   <table>
     <tr>
       <td><%= link_to "HOME", root_path %></td>      
-      <td><%= link_to "SIGN UP", new_user_path %></td>
-      <% if current_user.present? %>      
-        <td><%= link_to "USERS", users_path %></td>
+      <% if current_user.present? %>
         <td><%= link_to "MOVIES", movies_path %></td>
         <td><%= link_to "GENEROS", genres_path %></td>
-        <td><%= link_to "LOGOUT", logout_path %></td>
+        <td><%= link_to current_user.try(:email), user_path(current_user.try(:id)) %>, <%= link_to "Logout", logout_path, method: :delete, class: "logout" %></td>
       <% else %>        
-        <td><%= link_to "LOGIN", login_path %></td>       
+        <td><%= link_to "SIGN UP", new_user_path %></td>
+        <td><%= link_to "LOGIN", login_path %></td>
       <%end%>      
     </tr>
   </table>
 </div>
 
-<div class="content">
+<div class="content"></div>
 <%= yield %>
 
 </body>

@@ -14,12 +14,12 @@ class ApplicationController < ActionController::Base
 
   def login(user)
     session[:user_id] = user.id
-    redirect_to user_path
+    redirect_to user_path(user)
   end
 
   def authenticate
   	unless current_user.present?
-  		redirect_to login_path  		
+  		redirect_to login_path
   	end
   end
 
