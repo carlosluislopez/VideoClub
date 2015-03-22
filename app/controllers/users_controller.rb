@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:id])
+    @user = User.find(current_user.id)
   end
 
   def new
@@ -25,11 +25,11 @@ class UsersController < ApplicationController
   end
 
   def edit
-     @user = User.find(params[:id])
+     @user = User.find(current_user.id)
   end
 
   def update
-    @user = User.find(params[:id])
+    @user = User.find(current_user.id)
     
     if @user.update(user_params)
       redirect_to users_path,flash: {notice: "Usuario editado exitosamente"}
@@ -39,7 +39,7 @@ class UsersController < ApplicationController
   end
 
 	def streams_batch
-    @user = User.find(params[:id])
+    @user = User.find(current_user.id)
   end
 
   private

@@ -25,5 +25,6 @@
 - else
   %em No hay streams para esta pelicula
 
-%p= link_to "Listado Streams", new_movie_stream_path(@movie)
-= link_to "Editar Pelicula", edit_movie_path
+//new_user_stream_path(@user)
+%p= link_to "Ver Streams", movie_streams_path(@movie)
+%p= link_to "Editar Pelicula", edit_movie_path
