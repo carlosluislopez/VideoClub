@@ -9,6 +9,7 @@ class MoviesController < ApplicationController
 
   def new
     @movie = Movie.new
+    @movie.available = true
   end
 
   def create

@@ -18,4 +18,8 @@
     = f.date_field :released_at
 
   .form_row
+    = f.label :available, "Habilitada"
+    = f.check_box :available
+
+  .form_row
     = f.submit

@@ -11,15 +11,13 @@
   = @user.year_birth
 
 %p
-  Listado de Streams del susuario
+  Listado de Streams del usuario
 
 - if @user.streams.any?
-  %table{border:"1"}
-    %tr
-      %th Titulo
-      %th Precio     
-      %th 
-    =render partial: "streams", collection: @user.streams
+  = render partial: "shared/filter_form", locals: {form_path: user_path(@user)}
+        
+  .js_filtered_table
+    = render partial: "table", locals: {streams: @streams}
 - else
   %em No hay streams para este usuario
 

@@ -8,7 +8,7 @@ class Movie < ActiveRecord::Base
   
 
 
-  before_save :set_true_to_new_movie
+  #before_save :set_true_to_new_movie
 
   def get_movie_price(movie_id)
 
@@ -33,7 +33,11 @@ class Movie < ActiveRecord::Base
   end
 
   def set_true_to_new_movie
-  	self.available = true
+    if self.available.present?
+      self.available = self.available
+    else
+      self.available = true
+    end
   end
 
 end

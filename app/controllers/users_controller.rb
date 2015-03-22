@@ -7,6 +7,23 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(current_user.id)
+    @streams = @user.streams
+    #@streams = Stream.includes(:movie)
+
+    if params[:keyword].present?
+      q = params[:keyword]
+      #@streams = @streams.joins(:movie).where("streams.id LIKE '%#{q}%' or movies.title '%#{q}%'")
+      @streams = @streams.where("id like '%#{q}%'")
+
+    else
+      @streams = @user.streams
+    end
+
+    if request.xhr?
+      #render json: { keyword: params[:keyword], action: "index" }.to_json, status: 200
+      render partial: "table", locals: {streams:  @streams }
+    end
+
   end
 
   def new
